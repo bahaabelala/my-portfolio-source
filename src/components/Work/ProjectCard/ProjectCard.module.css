@@ -1,19 +1,19 @@
 .ProjectCard {
 	min-width: 200px;
-	margin: 4%;
+	margin: 2%;
 	background-color: var(--white);
 	border-radius: 20px;
 	overflow: hidden;
 	position: relative;
 	cursor: pointer;
 	
-	flex-basis: 29%;
+	flex-basis: 20%;
 }
 
 .ProjectCard img {
 	width: 100%;
 	height: 100%;
-	transform: scale(1.2);
+	transform: scale(1.1);
 
 	transition: transform 0.1s ease;
 }

@@ -1,0 +1,10 @@
+.Intro {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  transition: height 0.3s ease-out 0.3s;
+}
+
+.goDown {
+  height: 0;
+}

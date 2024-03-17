@@ -1,0 +1,18 @@
+.AboutMe {
+  height: 0;
+  background-color: var(--dark-gray);
+  overflow: hidden;
+  transition: height 0.3s ease-out, padding 0.3s ease-out;
+}
+
+.AboutMe h1 {
+  margin-bottom: 20px;
+  color: var(--light-gray);
+  
+  font-size: 5rem;
+}
+
+.shown {
+  height: 100%;
+  padding: 40px;
+}

@@ -1,0 +1,24 @@
+:root {
+  --black: #000000;
+  --dark-gray: #181823;
+  --light-gray: #5b6876;
+  --light-gray-2: #c2ccd8;
+  --white: #ffffff;
+  --dark-white: #fff3e4;
+  --blue: #5221e6;
+  --light-blue: #9b8ace;
+
+  --secondary-font: 'Catamaran', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+}

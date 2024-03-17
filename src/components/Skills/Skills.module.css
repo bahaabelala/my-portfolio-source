@@ -1,0 +1,30 @@
+.Skills {
+  height: 0;
+  background-image: linear-gradient(to bottom right, var(--black), #00000000),
+                    url("https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjl8fHdlYiUyMGRldmVsb3BtZW50fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  overflow-y: auto;
+  transition: height 0.3s ease, padding 0.3s ease;
+}
+
+.Skills h1 {
+  margin-bottom: 30px;
+  font-size: 5rem;
+  color: var(--light-gray-2);
+}
+
+.shown {
+  height: 100%;
+  padding: 40px;
+  padding-bottom: 80px;
+}
+
+.skillsContainer {
+  padding-bottom: 50px;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}

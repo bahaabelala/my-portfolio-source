@@ -1,0 +1,86 @@
+.IntroItems {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  padding-top: 200px;
+  transition: transform 0.3s ease-out;
+}
+
+.IntroItems > * {
+  opacity: 0;
+}
+
+.IntroItems h3 {
+  font-size: 2rem;
+  font-weight: 400;
+
+  animation: show 0.8s ease forwards;
+}
+
+.IntroItems h1 {
+  font-size: 4rem;
+  font-weight: 400;
+  margin-top: 70px;
+  padding: 0 5%;
+  color: var(--blue);
+  animation: show 1s ease 0.9s forwards;
+}
+
+.IntroItems h1 span {
+  color: var(--black);
+}
+
+.IntroItems p {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--light-gray);
+  margin-top: 20px;
+  animation: show 0.9s ease 1.4s forwards;
+}
+
+.introGoDown {
+  transform: scale(0);
+}
+
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* === === === DOWN ICON === === === */
+.downIcon {
+  opacity: 1;
+  display: block;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: transform 0.1s ease;
+}
+
+.downIcon:hover {
+  transform: translateX(-50%) scale(1.2);
+}
+
+.downIcon:active {
+  transform: translateX(-50%) scale(0.8);
+}
+
+.downIconGoDown {
+  display: none;
+}
